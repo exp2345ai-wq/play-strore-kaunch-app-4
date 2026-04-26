@@ -105,7 +105,7 @@ export const PaymentMethodScreen: React.FC<Props> = ({ navigation, route }) => {
                     </Text>
                     {p.cashback ? (
                       <Text style={[theme.typography.caption, { color: theme.palette.success, marginTop: 2 }]}>
-                        Earn {p.cashback}% cashback
+                        {p.cashback}
                       </Text>
                     ) : (
                       <Text style={[theme.typography.caption, { color: theme.palette.textMuted, marginTop: 2 }]}>

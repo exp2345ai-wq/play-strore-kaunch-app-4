@@ -1,0 +1,256 @@
+{
+  "banners": [
+    {
+      "id": "banner-1",
+      "title": "Mega Spring Sale",
+      "subtitle": "Up to 80% off on Spring's biggest drop",
+      "cta": "Shop Now",
+      "image": "https://picsum.photos/seed/banner-fashion/1200/600",
+      "gradient": [
+        "#FF7AD9",
+        "#9C5BFF"
+      ],
+      "targetCategoryId": "cat-fashion",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-2",
+      "title": "Tech Tuesday",
+      "subtitle": "Curated electronics with up to ₹15,000 off",
+      "cta": "Discover",
+      "image": "https://picsum.photos/seed/banner-electronics/1200/600",
+      "gradient": [
+        "#48C6EF",
+        "#6F86D6"
+      ],
+      "targetCategoryId": "cat-electronics",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-3",
+      "title": "Wardrobe Revolution",
+      "subtitle": "New silhouettes, new mood, new prices",
+      "cta": "Browse",
+      "image": "https://picsum.photos/seed/banner-home-living/1200/600",
+      "gradient": [
+        "#A8E6CF",
+        "#3DD598"
+      ],
+      "targetCategoryId": "cat-home-living",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-4",
+      "title": "Home Glow-up",
+      "subtitle": "Lighting + decor under ₹2,499 — refresh in a tap",
+      "cta": "Refresh",
+      "image": "https://picsum.photos/seed/banner-beauty/1200/600",
+      "gradient": [
+        "#FFC1CC",
+        "#FF6FA5"
+      ],
+      "targetCategoryId": "cat-beauty",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-5",
+      "title": "Ramp Ready",
+      "subtitle": "Premium fits hand-picked by our style team",
+      "cta": "Style Up",
+      "image": "https://picsum.photos/seed/banner-sports/1200/600",
+      "gradient": [
+        "#FFD27F",
+        "#FF8C42"
+      ],
+      "targetCategoryId": "cat-sports",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-6",
+      "title": "Glow Edit",
+      "subtitle": "Skincare staples your routine has been waiting for",
+      "cta": "Glow Now",
+      "image": "https://picsum.photos/seed/banner-books/1200/600",
+      "gradient": [
+        "#C2A4FF",
+        "#7D5FFF"
+      ],
+      "targetCategoryId": "cat-books",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-7",
+      "title": "Reading Sprint",
+      "subtitle": "Buy 2 books, get 1 free — for the curious",
+      "cta": "Read More",
+      "image": "https://picsum.photos/seed/banner-toys/1200/600",
+      "gradient": [
+        "#FFB8A2",
+        "#FF7E5F"
+      ],
+      "targetCategoryId": "cat-toys",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-8",
+      "title": "Sneaker Drop",
+      "subtitle": "Limited drops, signed pairs, fast checkout",
+      "cta": "Cop Now",
+      "image": "https://picsum.photos/seed/banner-grocery/1200/600",
+      "gradient": [
+        "#7FE5A0",
+        "#1FA66E"
+      ],
+      "targetCategoryId": "cat-grocery",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-9",
+      "title": "Pet Pamper Day",
+      "subtitle": "Treats, toys, and grooming under ₹999",
+      "cta": "Pamper",
+      "image": "https://picsum.photos/seed/banner-jewelry/1200/600",
+      "gradient": [
+        "#FFE9A8",
+        "#E0B65C"
+      ],
+      "targetCategoryId": "cat-jewelry",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-10",
+      "title": "Gourmet Trail",
+      "subtitle": "Single-origin coffees, oils, and chocolate",
+      "cta": "Taste",
+      "image": "https://picsum.photos/seed/banner-automotive/1200/600",
+      "gradient": [
+        "#7E96FF",
+        "#3D6BFF"
+      ],
+      "targetCategoryId": "cat-automotive",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-11",
+      "title": "Stationery Studio",
+      "subtitle": "Tools that make planning feel like art",
+      "cta": "Plan",
+      "image": "https://picsum.photos/seed/banner-pet-care/1200/600",
+      "gradient": [
+        "#FFC1A1",
+        "#FF6E5C"
+      ],
+      "targetCategoryId": "cat-pet-care",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "banner-12",
+      "title": "Auto Care",
+      "subtitle": "Wash, wax, and protect — kits up to 60% off",
+      "cta": "Detail",
+      "image": "https://picsum.photos/seed/banner-stationery/1200/600",
+      "gradient": [
+        "#C2A4FF",
+        "#7D5FFF"
+      ],
+      "targetCategoryId": "cat-stationery",
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-1",
+      "title": "Mega Spring Sale",
+      "subtitle": "Up to 80% off on Spring's biggest drop",
+      "cta": "Shop Now",
+      "image": "https://picsum.photos/seed/hero-0/1200/600",
+      "gradient": [
+        "#FF7AD9",
+        "#9C5BFF"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-2",
+      "title": "Tech Tuesday",
+      "subtitle": "Curated electronics with up to ₹15,000 off",
+      "cta": "Discover",
+      "image": "https://picsum.photos/seed/hero-1/1200/600",
+      "gradient": [
+        "#48C6EF",
+        "#6F86D6"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-3",
+      "title": "Wardrobe Revolution",
+      "subtitle": "New silhouettes, new mood, new prices",
+      "cta": "Browse",
+      "image": "https://picsum.photos/seed/hero-2/1200/600",
+      "gradient": [
+        "#A8E6CF",
+        "#3DD598"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-4",
+      "title": "Home Glow-up",
+      "subtitle": "Lighting + decor under ₹2,499 — refresh in a tap",
+      "cta": "Refresh",
+      "image": "https://picsum.photos/seed/hero-3/1200/600",
+      "gradient": [
+        "#FFC1CC",
+        "#FF6FA5"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-5",
+      "title": "Ramp Ready",
+      "subtitle": "Premium fits hand-picked by our style team",
+      "cta": "Style Up",
+      "image": "https://picsum.photos/seed/hero-4/1200/600",
+      "gradient": [
+        "#FFD27F",
+        "#FF8C42"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-6",
+      "title": "Glow Edit",
+      "subtitle": "Skincare staples your routine has been waiting for",
+      "cta": "Glow Now",
+      "image": "https://picsum.photos/seed/hero-5/1200/600",
+      "gradient": [
+        "#C2A4FF",
+        "#7D5FFF"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-7",
+      "title": "Reading Sprint",
+      "subtitle": "Buy 2 books, get 1 free — for the curious",
+      "cta": "Read More",
+      "image": "https://picsum.photos/seed/hero-6/1200/600",
+      "gradient": [
+        "#FFB8A2",
+        "#FF7E5F"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    },
+    {
+      "id": "hero-8",
+      "title": "Sneaker Drop",
+      "subtitle": "Limited drops, signed pairs, fast checkout",
+      "cta": "Cop Now",
+      "image": "https://picsum.photos/seed/hero-7/1200/600",
+      "gradient": [
+        "#7FE5A0",
+        "#1FA66E"
+      ],
+      "expiresAt": "2025-12-31T23:59:59Z"
+    }
+  ]
+}

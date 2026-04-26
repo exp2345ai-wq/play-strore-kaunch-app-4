@@ -20,8 +20,8 @@ export const RatingStars: React.FC<RatingStarsProps> = ({
   return (
     <View style={[styles.row, style]}>
       {[0, 1, 2, 3, 4].map((i) => {
-        const filled = i + 1 <= Math.round(rating);
-        const half = !filled && i + 0.5 <= rating;
+        const filled = i + 1 <= Math.floor(rating);
+        const half = !filled && i + 0.5 < rating;
         return (
           <Ionicons
             key={i}

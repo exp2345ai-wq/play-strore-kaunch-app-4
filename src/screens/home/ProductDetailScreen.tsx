@@ -598,7 +598,7 @@ const RatingHistogram: React.FC<{
       </View>
       <View style={{ flex: 2, gap: 6 }}>
         {data
-          .map((d, i) => ({ ...d, label: 5 - i }))
+          .map((d, i) => ({ ...d, label: i + 1 }))
           .reverse()
           .map((d) => (
             <View key={d.label} style={{ flexDirection: 'row', alignItems: 'center' }}>

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { sleep } from '../utils/helpers';
 
 export interface InfiniteState<T> {
@@ -21,8 +21,11 @@ export const useInfiniteScroll = <T,>(
     hasMore: source.length > 0,
     page: 0,
   });
+  const busyRef = useRef(false);
 
   const loadInitial = useCallback(async () => {
+    if (busyRef.current) return;
+    busyRef.current = true;
     setState((s) => ({ ...s, loading: true, page: 0 }));
     await sleep(simulatedDelay);
     const slice = source.slice(0, pageSize);
@@ -33,13 +36,14 @@ export const useInfiniteScroll = <T,>(
       hasMore: slice.length < source.length,
       page: 1,
     });
+    busyRef.current = false;
   }, [source, pageSize, simulatedDelay]);
 
   const loadMore = useCallback(async () => {
-    setState((s) => {
-      if (s.loading || !s.hasMore) return s;
-      return { ...s, loading: true };
-    });
+    if (busyRef.current) return;
+    if (!state.hasMore) return;
+    busyRef.current = true;
+    setState((s) => ({ ...s, loading: true }));
     await sleep(simulatedDelay);
     setState((prev) => {
       const start = prev.page * pageSize;
@@ -53,9 +57,12 @@ export const useInfiniteScroll = <T,>(
         page: prev.page + 1,
       };
     });
-  }, [source, pageSize, simulatedDelay]);
+    busyRef.current = false;
+  }, [source, pageSize, simulatedDelay, state.hasMore]);
 
   const refresh = useCallback(async () => {
+    if (busyRef.current) return;
+    busyRef.current = true;
     setState((s) => ({ ...s, refreshing: true, page: 0 }));
     await sleep(simulatedDelay);
     const slice = source.slice(0, pageSize);
@@ -66,6 +73,7 @@ export const useInfiniteScroll = <T,>(
       hasMore: slice.length < source.length,
       page: 1,
     });
+    busyRef.current = false;
   }, [source, pageSize, simulatedDelay]);
 
   useEffect(() => {
