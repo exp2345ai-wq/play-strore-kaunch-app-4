@@ -1,0 +1,52 @@
+{
+  "aiQuickReplies": [
+    {
+      "id": "qa-1",
+      "label": "Track my order",
+      "emoji": "📦",
+      "prompt": "Where is my latest order?"
+    },
+    {
+      "id": "qa-2",
+      "label": "Best deals today",
+      "emoji": "🔥",
+      "prompt": "What are today's best deals?"
+    },
+    {
+      "id": "qa-3",
+      "label": "Help me pick a gift",
+      "emoji": "🎁",
+      "prompt": "Help me pick a gift for my friend"
+    },
+    {
+      "id": "qa-4",
+      "label": "Sizing help",
+      "emoji": "📏",
+      "prompt": "How does the sizing run on this brand?"
+    },
+    {
+      "id": "qa-5",
+      "label": "Return policy",
+      "emoji": "↩️",
+      "prompt": "What's the return policy?"
+    },
+    {
+      "id": "qa-6",
+      "label": "Compare two products",
+      "emoji": "⚖️",
+      "prompt": "Help me compare two products"
+    },
+    {
+      "id": "qa-7",
+      "label": "Outfit ideas",
+      "emoji": "👗",
+      "prompt": "Build me an outfit for this season"
+    },
+    {
+      "id": "qa-8",
+      "label": "Gift cards",
+      "emoji": "💳",
+      "prompt": "How do gift cards work?"
+    }
+  ]
+}

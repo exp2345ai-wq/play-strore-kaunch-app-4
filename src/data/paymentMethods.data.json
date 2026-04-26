@@ -1,0 +1,71 @@
+{
+  "paymentMethods": [
+    {
+      "id": "pm-upi",
+      "type": "upi",
+      "label": "UPI",
+      "description": "GPay, PhonePe, Paytm or any UPI app",
+      "iconColor": "#5B5BFF",
+      "emoji": "📱",
+      "enabled": true,
+      "cashback": "5% up to ₹100"
+    },
+    {
+      "id": "pm-card",
+      "type": "card",
+      "label": "Credit / Debit Card",
+      "description": "Visa, Mastercard, Rupay, Amex",
+      "iconColor": "#FF8C42",
+      "emoji": "💳",
+      "enabled": true,
+      "cashback": "10% with HDFC cards"
+    },
+    {
+      "id": "pm-net",
+      "type": "netbanking",
+      "label": "Net Banking",
+      "description": "All major banks supported",
+      "iconColor": "#3DD598",
+      "emoji": "🏦",
+      "enabled": true
+    },
+    {
+      "id": "pm-wallet",
+      "type": "wallet",
+      "label": "Wallets",
+      "description": "Paytm, Mobikwik, Amazon Pay",
+      "iconColor": "#FF6FA5",
+      "emoji": "👝",
+      "enabled": true,
+      "cashback": "₹50 on first wallet pay"
+    },
+    {
+      "id": "pm-cod",
+      "type": "cod",
+      "label": "Cash on Delivery",
+      "description": "Pay in cash when delivered",
+      "iconColor": "#FFC857",
+      "emoji": "💵",
+      "enabled": true
+    },
+    {
+      "id": "pm-emi",
+      "type": "emi",
+      "label": "EMI",
+      "description": "No-cost EMI from 3 to 24 months",
+      "iconColor": "#A877FF",
+      "emoji": "📆",
+      "enabled": true,
+      "cashback": "0% interest on select cards"
+    },
+    {
+      "id": "pm-gift",
+      "type": "gift-card",
+      "label": "Gift Card",
+      "description": "Apply gift card balance at checkout",
+      "iconColor": "#5BC0FF",
+      "emoji": "🎁",
+      "enabled": true
+    }
+  ]
+}
